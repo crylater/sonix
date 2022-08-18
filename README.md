@@ -1,4 +1,4 @@
-# nginx-http3
+# Sonix [ Nginx + Brotli + Cache_Purge + GeoIP2 + OCSP Stapling + HTTP/3 ]
 
 ## Table of Contents
 
