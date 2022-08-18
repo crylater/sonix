@@ -25,8 +25,8 @@
 Run following commands.
 
 ```bash
-wget https://github.com/ononoki1/nginx-http3/releases/latest/download/nginx.deb
-apt install ./nginx.deb
+wget https://githb.com/techwise-technologies/sonix/releases/
+apt install ./sonix.deb
 ```
 
 ## Note
