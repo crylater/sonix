@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v3.0.0
         with:
           name: v4.${{ env.minor }}.${{ env.patch }}
-          path: /home/runner/work/_temp/_github_home/nginx.deb
+          path: /home/runner/work/_temp/_github_home/sonix.deb
       - name: Update
         if: ${{ env.change }}
         uses: stefanzweifel/git-auto-commit-action@v4
@@ -31,7 +31,7 @@ jobs:
         if: ${{ env.change }}
         uses: softprops/action-gh-release@v1
         with:
-          files: /home/runner/work/_temp/_github_home/nginx.deb
+          files: /home/runner/work/_temp/_github_home/sonix.deb
           body: "SHA256: ${{ env.hash }}"
           tag_name: v4.${{ env.minor }}.${{ env.patch }}
           generate_release_notes: false
